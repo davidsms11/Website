@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background: whitesmoke;
+    }
+    
+    img {
+        width: 620px;
+    }
+    /*-----------Layout-------------*/
+    
+    #logo,
+    #menu {
+        padding: 10px;
+    }
+    
+    #princ {
+        width: 920px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+   
+    
+    #post {
+        width: 660px;
+        float: left;
+    }
+    
+    .postagem {
+        padding: 20px;
+        margin-bottom: 20px;
+        background: white;
+    }
+    
+    #area-lat {
+        width: 240px;
+        float: right;
+    }
+    
+    #end {
+        clear: both;
+        text-align: center;
+        padding: 15px;
+        background: #CCC;
+    }
+    
+    #cab {
+        background-color: #f7b600;
+        padding: 20px;
+        text-align: center;
+    }
+
+   a:link,
+     a:visited {
+        color: #f7b600;
+        
+        border-radius: 19px;
+    }
+    
+     a:hover {
+       text-decoration: underline;
+    }
+    
+    #cab a:link,
+    #cab a:visited {
+        color: white;
+        padding: 15px;
+        border-radius: 19px;
+        text-decoration: none;
+    }
+    
+    #cab a:hover {
+        color: #f7b600;
+        background: white;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h1 {
+        color: #4e4e4e;
+        font-size: 2.5em;
+    }
+    h2{
+        color: #4e4e4e;
+    }
+    h3{
+        color: #4e4e4e;
+        background: #CCC;
+        padding: 5px;
+    }
+    .white {
+        color: white;
+    }
+    .date{
+        font-size: 0.8em;
+
+        padding-top: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .post-lat{
+        background: white;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .cont-lat{
+        font-size: 0.8em;
+        padding: 5px;
+       
+
+    }
+
+    
