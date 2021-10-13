@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/app.js"></script>
+    <title>App Game</title>
+</head>
+
+<body onresize="takeSizeField()">
+
+    <div class="panel">
+        <div class="life">
+            <img id="life1" src="./assets/img/coracao_cheio.png" alt="">
+            <img id="life2" src="./assets/img/coracao_cheio.png" alt="">
+            <img id="life3" src="./assets/img/coracao_cheio.png" alt="">
+        </div>
+
+        <div class="time">Time: <span id="stopWatch"></span> </div>
+    </div>
+
+
+    <script>
+        var createMosquito = setInterval(function () {
+            randonPosition()
+        },createMosquitoTime)
+    </script>
+
+    
+</body>
+
+</html>
